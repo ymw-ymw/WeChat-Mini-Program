@@ -1,0 +1,34 @@
+
+.goods_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3rpx solid #ccc;
+  padding: 10rpx
+}
+/*左侧边栏区域  */
+.goods_img{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.goods_img image{
+  width: 70%
+}
+/*右侧边栏区域  */
+.goods_info{
+  flex: 3; 
+}
+.goods_info_name{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+}
+.goods_info_price{
+  color: var(--themeColor);
+  font-size: 38rpx
+}

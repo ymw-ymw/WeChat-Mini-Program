@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tabs": "../../components/tabs/tabs"
+  },
+  "navigationBarTitleText": "游购商城"
+}

@@ -1,0 +1,56 @@
+.page{
+  height: 100%;
+  position: relative
+}
+.cates{
+  height: 100%
+}
+.cate_container{
+  height: calc(100vh - 110rpx);
+  display: flex
+}
+
+/*左侧布局  */
+.left_menu{
+  flex: 2;
+}
+.active{
+  color: var(--themeColor);
+  border-left: 5rpx solid currentColor
+}
+.left_menu_lsit{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx
+}
+
+
+
+/*右侧布局  */
+.right_menu{
+  flex: 5;
+}
+.left_menu_group{
+  display: flex;
+  flex-direction: column
+}
+.goods_title{
+  text-align: center;
+  height: 80rpx
+}
+.goods_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods_list navigator{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.goods_list navigator image{
+  width: 50%
+}

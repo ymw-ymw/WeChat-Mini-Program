@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "Search": "../../components/search/search",
+    "Tabs": "../../components/tabs/tabs"
+    
+   
+  },
+  "navigationBarTitleText": "游购商城",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle" : "dark"
+}
